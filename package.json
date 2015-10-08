@@ -1,0 +1,24 @@
+{
+  "name": "polyfill-custom-event",
+  "version": "1.0.0",
+  "description": "A browser polyfill in ES6 for the CustomEvent Constructor",
+  "main": "index.js",
+  "scripts": {
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxsudo/polyfill-custom-event.git"
+  },
+  "keywords": [
+    "polyfill",
+    "browser",
+    "CustomEvent",
+    "IE"
+  ],
+  "author": "Jared Anderson <@tuxsudo>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tuxsudo/polyfill-custom-event/issues"
+  },
+  "homepage": "https://github.com/tuxsudo/polyfill-custom-event#readme"
+}
