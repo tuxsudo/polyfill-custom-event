@@ -1,6 +1,6 @@
 let polyfilled = false;
 
-if(typeof window.CustomEvent !== "function") {
+if(window && typeof window.CustomEvent !== "function") {
 
 	function CustomEvent ( event, params = { bubbles: false, cancelable: false, detail: undefined } ) {
     	var evt = document.createEvent( 'CustomEvent' );
@@ -17,5 +17,3 @@ if(typeof window.CustomEvent !== "function") {
 };
 
 export default polyfilled;
-
-
